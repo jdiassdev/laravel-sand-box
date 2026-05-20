@@ -22,7 +22,7 @@ class TaskPolicy
     // Qualquer usuário logado pode criar
     public function create(User $user): bool
     {
-        return false;
+        return true; // false para teste
     }
 
     // Só o dono pode editar
