@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cc1e7b4ee0b38f3a6bc20b59f7f04c5e",
+    "content-hash": "e5879ff0e8ac9402f91e73f1ef255621",
     "packages": [
         {
             "name": "brick/math",
@@ -1051,6 +1051,70 @@
                 }
             ],
             "time": "2025-08-22T14:27:06+00:00"
+        },
+        {
+            "name": "jdiassdev/laravel-types-gen",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jdiassdev/laravel-types-gen.git",
+                "reference": "079c22d07f83c9ebfec2965c12884e7c58ff6e66"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jdiassdev/laravel-types-gen/zipball/079c22d07f83c9ebfec2965c12884e7c58ff6e66",
+                "reference": "079c22d07f83c9ebfec2965c12884e7c58ff6e66",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "^11.0|^12.0",
+                "illuminate/filesystem": "^11.0|^12.0",
+                "illuminate/support": "^11.0|^12.0",
+                "php": "^8.2"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^9.0|^10.0",
+                "phpunit/phpunit": "^11.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Jdiassdev\\LaravelTypesGen\\LaravelTypesGenServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Jdiassdev\\LaravelTypesGen\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "João Dias",
+                    "email": "jdiassdev@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Generate TypeScript types from Laravel FormRequests and API Resources.",
+            "homepage": "https://github.com/jdiassdev/laravel-types-gen",
+            "keywords": [
+                "api-resource",
+                "formrequest",
+                "generator",
+                "laravel",
+                "types",
+                "typescript"
+            ],
+            "support": {
+                "issues": "https://github.com/jdiassdev/laravel-types-gen/issues",
+                "source": "https://github.com/jdiassdev/laravel-types-gen/tree/v1.0.0"
+            },
+            "time": "2026-05-13T02:23:05+00:00"
         },
         {
             "name": "laravel/framework",
